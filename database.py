@@ -11,7 +11,7 @@ from configure import DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME, DB_SSLMOD
 logger = logging.getLogger(__name__)
 
 
-class StudyDB:
+class MyDB:
     """PostgreSQL database handler for managing document uploads and metadata."""
     
     def __init__(self):
